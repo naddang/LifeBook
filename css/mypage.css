@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	}
+	body{
+	  background-color: #ede6dd;
+	  text-align: center;
+	  font-family: 'GmarketSansLight';
+	}
+	.container {
+ 	  width: 400px;
+ 	  height: 500px;
+	  display: inline-block;
+	  margin-top: 10px;
+	}
+	.btn1 {
+		display: inline;
+	    width: 120px;
+	    height: 45px;
+	    text-align: center;
+	    line-height: 10px;
+	    color: white;
+	    transition: all 0.2s;
+	    border: 2px solid #6B5046;
+	    font-family: 'HallymMjo-Regular';
+	    
+	}
+	.btn2 {
+	    background: #6B5046;
+	}
+	.btnFade.btn2:hover{
+	    background: #ede6aa;
+	}
+	.tel2, .tel3{
+		width: 40px;
+	}
+	#p1 {
+		font-size: 30;
+		font-weight: bold;
+	}
+	#p2 {
+		font-size: 20;
+		font-weight: bold;
+	}
+	fieldset {
+		border: 1px solid #66310d;
+		border-radius: 20px;
+		width: 1008px;
+		height: 700px;
+		margin: 50 auto;
+		margin-top: 20px;
+		padding-top: 20px;
+	}
+	.outer {
+		align-content: center;
+	}
+	.userinfo {
+		margin-top: 50px;
+		font-size: 20;
+		text-align: left;
+	}
+	.name {
+		margin-left: 80px; 
+		margin-right: 40px;
+	}
+	.tel {
+		margin-left: 40px; 
+		margin-right: 40px;
+	}
+	.addr {
+		margin-left: 80px; 
+		margin-right: 40px;
+	}
+	.birth {
+		margin-left: 40px; 
+		margin-right: 40px;
+	}
+	.point {
+		margin-left: 60px; 
+		margin-right: 40px;
+	}
+	.admin {
+		margin-left: 40px; 
+		margin-right: 40px;
+	}

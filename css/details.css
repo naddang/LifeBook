@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+.content_area{
+	width: 1008px;
+}
+*{
+	margin: 0 auto;
+}
+
+#content{
+	font-size: 17px;
+	color: black;
+	line-height: 40px;
+	}
+.img{
+	float: left;
+}
+.title{
+	color: #3a60df;
+	font-size: 20px;
+	font-weight: bold; 
+}
+.info{
+	color: gray;
+}
+.deco{
+	text-decoration: none;
+	color: brown;
+}
+.button{
+	font-size: 15px;
+	border: none;
+	background: none;
+}
+.info{
+	color: black;
+	margin: 0;
+	max-width: 800px;
+	vertical-align:top;
+	display: -ms-flexbox; display: -webkit-box; display: -moz-box; display: box;              /* 글자가 넘치면 생략부호(...) 표시 */
+      word-break:break-all;
+      -webkit-box-orient:vertical;
+	line-height:1.3em; height:3.9em;
+}
+.orderBtn{
+	border: 1px solid #886953;
+	background: #886953;
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	width: 100px;
+	height: 30px;
+}
+.cartBtn{
+	border: 1px solid #644e3f;
+	background: #644e3f;
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	width: 100px;
+	height: 30px;
+}

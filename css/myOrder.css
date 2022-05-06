@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+*{
+	margin: 0 auto;
+}
+#content_area{
+	width: 1008px;
+}
+#content_area .table_title{
+    width: 1008px;
+    background-color: #F6EEE6;
+    border-top: 1px solid #6f4f28;
+    border-bottom: 1px solid lightgray;
+}
+#content_area .table_content{
+    width: 1008px;
+    color: black;
+    background-color: white;
+}
+.table_title{
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}

@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+.content_area{
+	width: 1008px;
+}
+*{
+	margin: 0 auto;
+}
+td{
+	vertical-align: top;
+}
+.valign{
+	line-height: 15px;
+}
+.contentTable{
+	width: 1008px;
+}
+
+.title{
+	font-size: 20px;
+	font-weight: bold;
+}
+.description{
+	font-size: 15px;
+	color: #823200;
+}
+.info{
+	font-size: 15px;
+	color: gray;
+	display: -ms-flexbox; display: -webkit-box; display: -moz-box; display: box;
+	max-height:60px;
+    overflow:hidden;
+    text-overflow: ellipsis;                /* 글자가 넘치면 생략부호(...) 표시 */
+    word-break:break-all;                /* 글자 단위로 "강제" 줄바꿈 처리 */
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+	line-height:1.3em; height:3.9em;
+}
+.pageNum{
+	align-content: center;
+}
+.line_height{
+	line-height: 15px;
+}
+.pageNum{
+	font-size: 13px;
+	font-weight: bold;
+}
+.price{
+	font-size: 13px;
+	font-weight: bold;
+	color: red;
+}
+.orderBtn{
+	border: 1px solid #886953;
+	background: #886953;
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	width: 100px;
+	height: 30px;
+}
+.cartBtn{
+	border: 1px solid #644e3f;
+	background: #644e3f;
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	width: 100px;
+	height: 30px;
+}

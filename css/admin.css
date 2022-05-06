@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.admin_box{
+	/* width: 200px; */
+	height: 200px;
+	background-color: #66310d;
+	border-radius: 10px;
+	color: #EDE6DD;
+	margin: 0px 25px;
+	line-height: 200px;
+	width: 250px;
+	font-size: 20px;
+}
+#box_wrap{
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+	border: 1px solid black;
+	justify-content: center;
+	width: 1008px;
+	padding: 30px;
+}
+#form_area{
+	font-size: 18px;
+	margin: 0px auto;
+	line-height: 45px;
+	/* width: 1000px; */
+}
+fieldset{
+	border: 1px solid #66310d;
+	border-radius: 20px;
+	margin: 0 auto;
+	width: 700px;
+	height: 700px;
+	margin-top: 50px;
+	padding-top: 30px;
+}
+legend{
+	font-size: 30px;
+	margin-left: 50px;
+}
+#admin_wrap > *{
+	margin-top: 20px;
+}
+select{
+	width: 160px;
+	height: 30px;
+	background: #F6EEE6;
+}
+form{
+	padding-left: 70px;
+	padding-right: 70px;
+}
+#button_area{
+	margin-top: -100px;
+	margin-left: -20px;
+	text-align: center;
+}
+#button_area button{
+	width: 150px;
+	height: 50px;
+	background-color: #E3DBCE;
+	color: gray;
+	color: #66310d;
+	font-weight:bold;
+	border-color: #F6EEE6;
+	box-shadow: none;
+	cursor: pointer;
+	font-size: 18px;
+}
+.text_box {
+	background: #F6EEE6;
+	height: 30px;
+	width: 230px;
+	border: 1px solid gray;
+	margin-right: 100px;
+}
+table {
+	width: 911px;
+	margin: 0 auto;
+	border: 1px #66310d solid;
+	border-collapse: collapse;
+	background-color: white;
+	text-align: center;
+}
+td{
+	border-bottom: 1px #66310d solid;
+	padding: 3px;
+}
+#table_area{
+	width: 950px;
+	margin: 0 auto;
+}
+#index_btn{
+	width: 950px;
+	text-align: right;
+	margin-bottom: 20px;
+	margin-left: 8px;
+}
+#index_btn button {
+	width: 150px;
+	height: 50px;
+	background-color: #E3DBCE;
+	color: #66310d;
+	font-weight:bold;
+	border-color: #F6EEE6;
+	box-shadow: none;
+	font-size: 15px;
+}
+#page_area{
+	padding-top: 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+.management_btn{
+	background-color: #E3DBCE;
+	color: #66310d;
+	font-weight:bold;
+	border-color: #F6EEE6;
+	box-shadow: none;
+	padding: 5px 10px;
+}
+tr{
+	height: 50px;
+}
+textarea {
+	resize: none;
+}
+th{
+	background-color: #F6EEE6;
+	padding: 0 10;
+}
+section{
+	height: 700px;
+	text-align: center;
+}
+#title{
+	font-size: 30px;
+	text-align: center;
+	margin: 20px auto 0 auto;
+	font-weight: bold;
+}
+
+#box_wrap{
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+	border: 1px solid black;
+	justify-content: center;
+	width: 1008px;
+	padding: 30px;
+}
+.admin_box{
+	/* width: 200px; */
+	height: 200px;
+	background-color: #66310d;
+	border-radius: 10px;
+	color: #EDE6DD;
+	margin: 0px 25px;
+	line-height: 200px;
+	width: 250px;
+	font-size: 20px;
+}
+#form_area{
+	font-size: 18px;
+	margin: 0px auto;
+	line-height: 45px;
+	/* width: 1000px; */
+}
+fieldset{
+	border: 1px solid #66310d;
+	border-radius: 20px;
+	margin: 0 auto;
+	width: 700px;
+	height: 700px;
+	margin-top: 50px;
+	padding-top: 30px;
+}
+legend{
+	font-size: 30px;
+	margin-left: 50px;
+}
+form{
+	padding-left: 70px;
+	padding-right: 70px;
+}
+#button_area{
+	margin-top: -100px;
+	margin-left: -20px;
+	text-align: center;
+}
+#button_area button{
+	width: 150px;
+	height: 50px;
+	background-color: #E3DBCE;
+	color: gray;
+	color: #66310d;
+	font-weight:bold;
+	border-color: #F6EEE6;
+	box-shadow: none;
+	cursor: pointer;
+	font-size: 18px;
+}
+#info-area{
+	display: flex;
+	align-items: center;
+	 justify-content: center;
+}
+#form_flexBox_1{
+	padding-right: 10px;
+}

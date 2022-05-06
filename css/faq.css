@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: 'GmarketSansMedium';
+}
+h1{
+	font-size: 30px;
+	text-align: center;	
+}
+table{
+	margin: 0 auto;
+}
+
+footer{
+	width: 1008;
+	/* bottom: 0; */
+	left: 0;
+	right: 0;
+}
+#wrapper{
+	min-height: 100%;
+}
+*{
+	margin: 0 auto;
+	
+}
+.menu{
+	display: table;
+ 	position: relative;
+ 	width: 100%;
+}
+.menu > li{
+	padding-bottom: 30px;
+}
+#menu_area{
+	width: 600px;
+	margin: 0 auto;
+	text-align: left;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+button{
+	width: 100px;
+	height: 30px;
+	color: #66310d;
+	background-color: #E3DBCE;
+	box-shadow: none;
+	cursor: pointer;
+	font-size: 18px;
+}
+#menu_area button {
+	width: 150px;
+	height: 50px;
+	background-color: #E3DBCE;
+	color: #66310d;
+	font-weight:bold;
+	border-color: #F6EEE6;
+	box-shadow: none;
+	cursor: pointer;
+	font-size: 18px;
+}
+#title{
+	font-size: 30px;
+	text-align: center;
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+#wirteBtn{
+	text-align: right;
+	margin-right: 202px;
+}
+#pageArea{
+	margin: 0 auto;
+}
+fieldset{
+	border: 1px solid #66310d;
+	border-radius: 20px;
+	margin: 0 auto;
+	width: 700px;
+	height: 700px;
+	margin-top: 50px;
+	padding-top: 30px;
+	line-height: 40px;
+}
+legend{
+	font-size: 30px;
+	margin-left: 50px;
+}
+form{
+	padding-left: 70px;
+	padding-right: 70px;
+	font-size: 15px;
+}
+#info-area{
+	display: flex;
+	justify-content: center;
+}
+#form_flexBox_1{
+	padding-right: 10px;
+	width: 100px;
+}
+#form_flexBox_2{
+	padding-top: 1px;
+}
+select {
+	width: 150px;
+	height: 30px;
+	font-size: 15px;
+	text-align: center;
+}
+#button_area{
+	margin-top: 100px;
+	margin-left:17px;
+	text-align: center;
+}
+#button_area button{
+	width: 150px;
+	height: 50px;
+	background-color: #E3DBCE;
+	color: gray;
+	color: #66310d;
+	font-weight:bold;
+	border-color: #F6EEE6;
+	box-shadow: none;
+	cursor: pointer;
+	font-size: 18px;
+}

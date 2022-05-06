@@ -1,0 +1,78 @@
+@charset "EUC-KR";
+fieldset{
+	border: 1px solid #66310d;
+	border-radius: 20px;
+	margin: 0 auto;
+	width: 700px;
+	height: 700px;
+	margin-top: 50px;
+	padding-top: 30px;
+}
+legend{
+	font-size: 30px;
+	margin-left: 50px;
+}
+form{
+	padding-left: 70px;
+	padding-right: 70px;
+}
+#info-area{
+	display: flex;
+	align-items: stretch;
+	justify-content: flex-start;
+}
+#info-area > div{
+	padding: 10px;
+	line-height: 30px;
+	font-size: 15px;
+}
+span {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: inline-block;
+}
+#form-area{
+	display: flex;
+	padding-left: 20px;
+}
+#form-title{
+	width: 100px;
+}
+#button_area{
+	margin-top: 20px;
+	margin-left:17px;
+	text-align: center;
+}
+#button_area button{
+	width: 150px;
+	height: 50px;
+	background-color: #E3DBCE;
+	color: gray;
+	color: #66310d;
+	font-weight:bold;
+	border-color: #F6EEE6;
+	box-shadow: none;
+	cursor: pointer;
+	font-size: 18px;
+}
+textarea {
+	padding: 10px;
+}
+#menu_area{
+	margin: 20 auto;
+	text-align: center;
+}
+#menu_area button {
+	width: 150px;
+	height: 50px;
+	background-color: #E3DBCE;
+	color: #66310d;
+	font-weight:bold;
+	border-color: #F6EEE6;
+	box-shadow: none;
+	cursor: pointer;
+	font-size: 18px;
+}
+td{
+	padding: 10px 0px;
+}

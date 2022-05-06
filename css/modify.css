@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	}
+	body{
+	  background-color: #ede6dd;
+	  text-align: center;
+	  font-family: 'GmarketSansLight';
+	}
+	.container {
+	  border-radius: 6px;
+ 	  width: 305px;
+	  height: 630px;
+	  display: inline-block;
+	  margin-top: 10px;
+	  font-family: 'HallymMjo-Regular';
+	}
+	.btn1 {
+		display: inline;
+	    width: 75px;
+	    height: 30px;
+	    text-align: center;
+	    line-height: 10px;
+	    color: white;
+	    transition: all 0.2s;
+	    border: 2px solid #6B5046;
+	    font-family: 'HallymMjo-Regular';
+	    
+	}
+	.btn2 {
+	    background: #6B5046;
+	}
+	.btnFade.btn2:hover{
+	    background: #ede6aa;
+	}
+	.tel2, .tel3{
+		width: 40px;
+	}
+	#subject {
+		font-size: large;
+		font-weight: bold;
+	}
+	#reference {
+		margin-top: 10px;
+	}
+	.box {
+		height: 30px;
+		width: 300px;
+		padding-left: 5px;
+	    font-family: 'HallymMjo-Regular';
+	}
+	.title{
+		text-align: left;
+		margin-left: 5px;
+		margin-bottom: 3px;
+		margin-top: 10px;
+		font-weight: bold;
+	}
+	.idbox {
+		width: 220px;
+	}
+	.idchk {
+		width: 75px;
+		padding-left: 0px;
+	}
+	.telbox {
+	    font-family: 'HallymMjo-Regular';
+		padding-left: 5px;
+		height: 30px;
+		width: 90px;
+	}
+	.postbox {
+		width: 200px;
+		margin-bottom: 5px;
+	}
+	.roadbox {
+		margin-bottom: 5px;
+	}
+	.detailbox {
+		margin-bottom: 5px;
+	}
+	.postchk {
+		width: 95px;
+		padding-left: 0px;
+	}
+	.birthbox {
+		width: 97px;
+	}
+	.top{
+		font-family: 'HallymMjo-Regular';
+	}
+	fieldset {
+		border: 1px solid #66310d;
+		border-radius: 20px;
+		width: 1008px;
+		height: 760px;
+		margin: 50 auto;
+		margin-top: 20px;
+	}
+	.outer {
+		align-content: center;
+	}
